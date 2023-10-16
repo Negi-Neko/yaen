@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="JapanYaenKyokai">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>日本ヤエン狂会</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+
+
+ <!--まず背景画像を設置し、position設定でロゴを左上に配置。navメニューを右詰めの横並びに配置。-->
+    <header id="header">
+        <h1 class="title-logo"><a href="index.html"><img src="images/yaen_logo.jpg" alt="logo"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="#nav1">About</a></li>
+                <li><a href="#nav2">発明品</a></li>
+                <li><a href="#nav3">ブログ</a></li>
+                <li><a href="#nav4">コンタクト</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="topImg">
+            <img src="images/yaen_top.png" alt="">
+        </div>
+
+        <section id="nav1">
+
+            <header id="panelHeader">
+                <h2><span>About</span></h2>
+            </header>
+        
+            <div class="container">
+                <div class="content">
+                    <img src="images/yaen_about.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>津村○○</h3>
+                    <p>19xx年生まれ。○○出身。<br>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+            </div>
+        </section>
+
+        <!--発明品セクション。左に発明品の説明（販売サイトへの誘導ボタン付き）、右にヤエンの画像をセットにして中央ぞろえに。flexboxを使うか？-->
+
+        <section id="nav2" class="wrapper">
+            <header id="panelHeader">
+                <h2><span>発明品</span></h2>
+            </header>
+            
+            <div class="container">
+                <div class="content">
+                    <h3>○○式ヤエン</h3>
+                    <p>○○年特許取得。<br>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p><br>
+                    <div class="button">
+                        <a href="#">購入はこちら</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/yaen_invention.png" alt="">
+                </div>
+            </div>
+        </section>
+
+     </main>
+
+    <footer>
+
+     </footer>
+
+  </body>
+
+</html>
