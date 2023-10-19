@@ -49,8 +49,6 @@
   
   .title-logo img{
       max-width:100%;
-      mix-blend-mode: multiply;
-      /*背景色を透明にする */
   }
   
   #header ul{
